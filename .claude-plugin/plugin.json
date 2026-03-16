@@ -1,0 +1,8 @@
+{
+  "name": "jira",
+  "version": "1.0.0",
+  "description": "Smart Jira integration — auto-surfaces ticket context, browses team boards, manages assignments and transitions, and pipes tickets into workflow planning",
+  "author": {
+    "name": "Alex Porter"
+  }
+}

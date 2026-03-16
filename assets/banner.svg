@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d3d4d"/>
+      <stop offset="100%" stop-color="#253343"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="300" rx="16" fill="url(#bg)"/>
+
+  <!-- ===== TICKET ===== -->
+  <g transform="translate(135, 60)">
+    <!-- Card -->
+    <rect x="0" y="0" width="80" height="100" rx="10" fill="none" stroke="#7faa8e" stroke-width="2.5"/>
+    <!-- Lines on card -->
+    <line x1="16" y1="24" x2="64" y2="24" stroke="#7faa8e" stroke-width="2" stroke-linecap="round"/>
+    <line x1="16" y1="40" x2="52" y2="40" stroke="#7faa8e" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <line x1="16" y1="56" x2="58" y2="56" stroke="#7faa8e" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+    <line x1="16" y1="72" x2="40" y2="72" stroke="#7faa8e" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+  </g>
+  <text x="175" y="200" text-anchor="middle" fill="#9ab8a8" font-family="-apple-system, system-ui, 'Segoe UI', sans-serif" font-size="18" font-weight="600" letter-spacing="1">Ticket</text>
+
+  <!-- ===== ARROW 1 ===== -->
+  <line x1="260" y1="110" x2="340" y2="110" stroke="#5a8a6a" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="342,110 330,104 330,116" fill="#5a8a6a"/>
+
+  <!-- ===== AGENT ===== -->
+  <g transform="translate(365, 55)">
+    <!-- Antenna -->
+    <line x1="35" y1="0" x2="35" y2="14" stroke="#7faa8e" stroke-width="2"/>
+    <circle cx="35" cy="0" r="3.5" fill="#7faa8e"/>
+    <!-- Head -->
+    <rect x="0" y="14" width="70" height="52" rx="12" fill="none" stroke="#7faa8e" stroke-width="2.5"/>
+    <!-- Eyes -->
+    <circle cx="24" cy="38" r="6" fill="#5a8a6a"/>
+    <circle cx="46" cy="38" r="6" fill="#5a8a6a"/>
+    <!-- Smile -->
+    <path d="M22,52 Q35,62 48,52" fill="none" stroke="#7faa8e" stroke-width="2" stroke-linecap="round"/>
+    <!-- Body -->
+    <rect x="10" y="72" width="50" height="28" rx="8" fill="none" stroke="#7faa8e" stroke-width="2" opacity="0.6"/>
+  </g>
+  <text x="400" y="200" text-anchor="middle" fill="#9ab8a8" font-family="-apple-system, system-ui, 'Segoe UI', sans-serif" font-size="18" font-weight="600" letter-spacing="1">Agent</text>
+
+  <!-- ===== ARROW 2 ===== -->
+  <line x1="470" y1="110" x2="550" y2="110" stroke="#5a8a6a" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="552,110 540,104 540,116" fill="#5a8a6a"/>
+
+  <!-- ===== DONE ===== -->
+  <g transform="translate(580, 60)">
+    <!-- Circle -->
+    <circle cx="45" cy="45" r="44" fill="none" stroke="#7faa8e" stroke-width="2.5"/>
+    <!-- Checkmark -->
+    <polyline points="24,46 40,62 68,30" fill="none" stroke="#5ebd72" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="625" y="200" text-anchor="middle" fill="#9ab8a8" font-family="-apple-system, system-ui, 'Segoe UI', sans-serif" font-size="18" font-weight="600" letter-spacing="1">Done</text>
+
+  <!-- ===== TITLE ===== -->
+  <text x="400" y="262" text-anchor="middle" fill="#4d6d5d" font-family="-apple-system, system-ui, 'Segoe UI', sans-serif" font-size="13" font-weight="400" letter-spacing="2">JIRA-SYNC</text>
+</svg>
