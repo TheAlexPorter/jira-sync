@@ -1,0 +1,8 @@
+{
+  "name": "jira-sync",
+  "version": "0.1.0",
+  "description": "Pull Jira tickets and pipe into workflow plugin for planning and implementation",
+  "author": {
+    "name": "Alexander Porter"
+  }
+}
