@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c77a18ef-cef0-4e8a-bfe4-11d35e8b3c84" alt="Jira-Sync" width="800">
+</p>
+
 # jira-sync
 
 A Claude Code plugin that connects to Jira Cloud and pulls tickets into your workflow.
